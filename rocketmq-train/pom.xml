@@ -9,10 +9,10 @@
         <relativePath/>
     </parent>
     <groupId>com.weilai</groupId>
-    <artifactId>rocketmq-produce-demo</artifactId>
+    <artifactId>rocketmq-train</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>rocketmq-produce-demo</name>
-    <description>rocketmq-produce-demo</description>
+    <name>rocketmq-train</name>
+    <description>rocketmq-train</description>
     <properties>
         <java.version>17</java.version>
     </properties>

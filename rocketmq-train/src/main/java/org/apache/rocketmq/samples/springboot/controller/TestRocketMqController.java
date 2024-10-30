@@ -1,6 +1,5 @@
 package org.apache.rocketmq.samples.springboot.controller;
 
-import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.samples.springboot.msg.MsgInfo;
 import org.apache.rocketmq.samples.springboot.produce.RocketMqProducer;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +16,7 @@ public class TestRocketMqController {
 
     @GetMapping("/send")
     public void sendMsg() {
-//        rocketMqProducer.sendMessage("我来测试一下rocketmq");
+        rocketMqProducer.sendMessage("我来测试一下rocketmq");
 
         MsgInfo msgInfo = new MsgInfo();
         msgInfo.setTitle("好的啊");
