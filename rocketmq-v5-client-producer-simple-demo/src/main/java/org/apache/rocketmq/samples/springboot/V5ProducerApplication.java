@@ -50,6 +50,8 @@ public class V5ProducerApplication implements CommandLineRunner {
         SpringApplication.run(V5ProducerApplication.class, args);
     }
 
+
+    //  rocketmq 反序列化
     @Override
     public void run(String... args) {
         SendReceipt sendReceipt = rocketMQClientTemplate.syncSendNormalMessage(topic, "Hello V5");

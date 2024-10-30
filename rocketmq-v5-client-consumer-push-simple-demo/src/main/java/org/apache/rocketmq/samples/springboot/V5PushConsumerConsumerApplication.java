@@ -39,6 +39,7 @@ public class V5PushConsumerConsumerApplication implements CommandLineRunner {
     public void run(String... args) {
     }
 
+    // V5PushConsumerConsumerApplication.java演示了rocketmq 反序列化
     @Service
     @RocketMQMessageListener(consumerGroup="demo-group", topic="demo-test")
     public class MyConsumer1 implements RocketMQListener {
